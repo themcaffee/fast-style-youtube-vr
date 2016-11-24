@@ -24,26 +24,26 @@ rm master.zip
 cd fast-style-youtube-vr-master
 ```
 
-1. Install python 2.7 and pip
+2. Install python 2.7 and pip
 
 ```
 sudo apt-get install -y python-pip python-dev libcurl4-openssl-dev
 ```
 
-1. Setup the project
+3. Run setup script
 
 ```
 cd fast-style-youtube-vr-master
 ./setup.sh
 ```
 
-1. Get JSON file of youtube credentials by following [youtube-upload's guide](https://github.com/tokland/youtube-upload#authentication).
+4. Get JSON file of youtube credentials by following [youtube-upload's guide](https://github.com/tokland/youtube-upload#authentication).
 Put the downloaded json file into `~/fast_style_youtube_vr/youtube.json`.
 
-1. Install Tensorflow, CUDA, and cuDNN. It would also be a good idea to install your graphic card's appropriate Nvidia drivers.
+5. Install (Tensorflow, CUDA, and cuDNN)[https://www.tensorflow.org/versions/r0.11/get_started/os_setup.html). It would also be a good idea to install your graphic card's appropriate Nvidia drivers.
 
-1. Download [pre-generated models](https://drive.google.com/drive/folders/0B9jhaT37ydSyRk9UX0wwX3BpMzQ). Move the models
- into ~/.fast_style_youtube/vr/models.
+6. Download [pre-generated models](https://drive.google.com/drive/folders/0B9jhaT37ydSyRk9UX0wwX3BpMzQ). Move the models
+ into `~/.fast_style_youtube/vr/models`.
 
 
 ## Example Usage
