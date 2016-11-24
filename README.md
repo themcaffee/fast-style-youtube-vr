@@ -40,7 +40,7 @@ cd fast-style-youtube-vr-master
 4. Get JSON file of youtube credentials by following [youtube-upload's guide](https://github.com/tokland/youtube-upload#authentication).
 Put the downloaded json file into `~/fast_style_youtube_vr/youtube.json`.
 
-5. Install (Tensorflow, CUDA, and cuDNN)[https://www.tensorflow.org/versions/r0.11/get_started/os_setup.html). It would also be a good idea to install your graphic card's appropriate Nvidia drivers.
+5. Install [Tensorflow, CUDA, and cuDNN](https://www.tensorflow.org/versions/r0.11/get_started/os_setup.html). It would also be a good idea to install your graphic card's appropriate Nvidia drivers.
 
 6. Download [pre-generated models](https://drive.google.com/drive/folders/0B9jhaT37ydSyRk9UX0wwX3BpMzQ). Move the models
  into `~/.fast_style_youtube/vr/models`.
