@@ -52,12 +52,6 @@ Download and style the video with the scream model that's located in ~/.fast_sty
 take a long time and depends heavily on your gpu power.
 
 ```
-python run.py --video https://www.youtube.com/watch?v=T_KXSWiPL-4 --model scream
-```
-
-Same as above but cut the video starting at 00:00:30 to 30 seconds long before styling
-
-```
 python run.py --video https://www.youtube.com/watch?v=T_KXSWiPL-4 --model scream --start-time 00:00:30 --duration 30
 ```
 
