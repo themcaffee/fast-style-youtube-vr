@@ -74,3 +74,8 @@ python run.py --video https://www.youtube.com/watch?v=T_KXSWiPL-4 --model scream
 --video-title (optional): The title of the uploaded video on Youtube.
 
 --video-description (optional): The description of the uploaded video on Youtube.
+
+
+## Credits
+
+Thanks to Logan Engstrom ([fast-style-transfer](https://github.com/lengstrom/fast-style-transfer) for the stylization implementation.
