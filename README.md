@@ -69,14 +69,14 @@ python run.py --video https://www.youtube.com/watch?v=T_KXSWiPL-4 --model scream
 
 ## All available options
 
---video : The full Youtube URL of the video to download.
+--video (required): The full Youtube URL of the video to download.
 
---model : The name of the model file to use to style.
+--model (required): The name of the model file to use to style.
 
---start-time : When to start the cut of the file. Format: 00:00:00
+--start-time (required): When to start the cut of the file. Expect format: 00:00:00.
 
---duration : The duration of the cut video in seconds.
+--duration (required): The duration of the cut video in seconds.
 
---video-title : The title of the uploaded video on Youtube.
+--video-title (optional): The title of the uploaded video on Youtube.
 
---video-description : The description of the uploaded video on Youtube.
+--video-description (optional): The description of the uploaded video on Youtube.
