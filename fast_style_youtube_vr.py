@@ -83,7 +83,6 @@ def _download_youtube_video(url):
 
     :param url: The full youtube url of the video
     """
-    # Download video from youtube
     youtube_dl_cmd = ["youtube-dl",
                       "-f", "bestvideo[ext=mp4]+bestaudio[ext=m4a]/mp4",
                       "--restrict-filenames",
@@ -100,7 +99,6 @@ def _cut_video(in_path, out_path, start_time, duration):
     :param start_time: When to start the cut. Format '00:00:00'
     :param duration: Number of seconds after start to cut
     """
-    # Cut video into smaller size
     cut_cmd = ["ffmpeg",
                "-y",
                "-v", "error",
