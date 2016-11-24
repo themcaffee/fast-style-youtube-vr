@@ -3,6 +3,8 @@
 Step inside a virtual world painted by your favorite artist. Simple proof of concept script to download Youtube VR videos, transfer
 style using fast style, add metadata, and reupload to Youtube for viewing. Requires a good GPU to finish in reasonable amount of time.
 
+_(Click to go to video. Make sure to use a compatible browser.)_
+
 [![Venice Scream](https://img.youtube.com/vi/jfiGyaFzHug/0.jpg)](https://www.youtube.com/watch?v=jfiGyaFzHug)
 
 [![Venice Rain Princess](https://img.youtube.com/vi/ZuxioQEKw7I/0.jpg)](https://www.youtube.com/watch?v=ZuxioQEKw7I)
