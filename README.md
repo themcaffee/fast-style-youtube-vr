@@ -41,7 +41,7 @@ _(Click to go to video. Make sure to use a compatible browser.)_
 5. Install [Tensorflow, CUDA, and cuDNN](https://www.tensorflow.org/versions/r0.11/get_started/os_setup.html). If you have a Nvidia GPU, you should also make sure to install the drivers from Nvidia themselves.
 
 6. Download the [pre-generated models](https://drive.google.com/drive/folders/0B9jhaT37ydSyRk9UX0wwX3BpMzQ). Move the models
- into `~/.fast_style_youtube/vr/models`.
+ into `~/.fast_style_youtube_vr/models/`.
 
 
 ## Example Usage
