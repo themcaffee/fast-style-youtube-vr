@@ -78,4 +78,4 @@ python run.py --video https://www.youtube.com/watch?v=T_KXSWiPL-4 --model scream
 
 ## Credits
 
-Thanks to Logan Engstrom ([fast-style-transfer](https://github.com/lengstrom/fast-style-transfer) for the stylization implementation.
+Thanks to Logan Engstrom ([fast-style-transfer](https://github.com/lengstrom/fast-style-transfer)) for the stylization implementation.
