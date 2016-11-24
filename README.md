@@ -1,4 +1,4 @@
-# Fast Style Youtube VR
+# Fast Style Youtube VR :zap: :art: :video_camera: :sunglasses:
 
 Step inside a virtual world painted by your favorite artist. Simple proof of concept script to download Youtube VR videos, transfer
 style using fast style, add metadata, and reupload to Youtube for viewing. Requires a good GPU to finish in reasonable amount of time.
@@ -14,31 +14,27 @@ style using fast style, add metadata, and reupload to Youtube for viewing. Requi
 
 ## Getting Setup
 
-1. Get the project
+1. Get the project 
 
-```
-echo "Get the project"
-wget https://github.com/themcaffee/fast-style-youtube-vr/archive/master.zip
-unzip master.zip
-rm master.zip
-cd fast-style-youtube-vr-master
-```
-
+  ```
+  echo "Get the project"
+  wget https://github.com/themcaffee/fast-style-youtube-vr/archive/master.zip
+  unzip master.zip
+  rm master.zip
+  cd fast-style-youtube-vr-master
+  ```
 2. Install python 2.7 and pip
 
-```
-sudo apt-get install -y python-pip python-dev libcurl4-openssl-dev
-```
-
+  ```
+  sudo apt-get install -y python-pip python-dev libcurl4-openssl-dev
+  ```
 3. Run setup script
 
-```
-cd fast-style-youtube-vr-master
-./setup.sh
-```
-
-4. Get JSON file of youtube credentials by following [youtube-upload's guide](https://github.com/tokland/youtube-upload#authentication).
-Put the downloaded json file into `~/fast_style_youtube_vr/youtube.json`.
+  ```
+  cd fast-style-youtube-vr-master
+  ./setup.sh
+  ```
+4. Get JSON file of youtube credentials by following [youtube-upload's guide](https://github.com/tokland/youtube-upload#authentication). Put the downloaded json file into `~/fast_style_youtube_vr/youtube.json`.
 
 5. Install [Tensorflow, CUDA, and cuDNN](https://www.tensorflow.org/versions/r0.11/get_started/os_setup.html). It would also be a good idea to install your graphic card's appropriate Nvidia drivers.
 
@@ -78,4 +74,4 @@ python run.py --video https://www.youtube.com/watch?v=T_KXSWiPL-4 --model scream
 
 ## Credits
 
-Thanks to Logan Engstrom ([fast-style-transfer](https://github.com/lengstrom/fast-style-transfer)) for the stylization implementation.
+Thanks to Logan Engstrom ([fast-style-transfer](https://github.com/lengstrom/fast-style-transfer)) for the awesome stylization implementation. (And of course all of the other libraries utilized in this project).
