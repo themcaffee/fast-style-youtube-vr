@@ -48,7 +48,7 @@ Put the downloaded json file into `~/fast_style_youtube_vr/youtube.json`.
 
 ## Example Usage
 
-Download and style the video with the scream model that's located in ~/.fast_style_youtube_vr/models/scream.ckpt. This will
+Download and style the video with the scream model that's located in `~/.fast_style_youtube_vr/models/scream.ckpt`. This will
 take a long time and depends heavily on your gpu power.
 
 ```
